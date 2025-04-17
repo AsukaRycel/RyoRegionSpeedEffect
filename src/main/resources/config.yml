@@ -1,0 +1,10 @@
+regions:
+  "登录大厅":
+    world: denglu
+    minX: 0
+    maxX: 999
+    minY: 0
+    maxY: 999
+    minZ: 0
+    maxZ: 999
+    amplifier: 10

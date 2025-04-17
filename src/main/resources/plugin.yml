@@ -1,0 +1,20 @@
+name: RyoRegionSpeedEffect
+version: '${project.version}'
+main: Ryo.Ryo
+api-version: 1.20
+authors: [ Ryo ]
+description: 进入指定区域后会临时获得加速效果,离开自动移除效果.
+commands:
+  RyoRegionSpeedEffect:
+    description: RyoRegionSpeedEffect 插件命令
+    usage: /<command> reload
+    subcommands:
+      reload:
+        description: 重新加载区域配置
+        permission: ryoregion.reload
+        permission-message: 你没有权限执行此命令！
+
+permissions:
+  RyoRegionSpeedEffect.reload:
+    description: 允许玩家重载区域配置
+    default: op
